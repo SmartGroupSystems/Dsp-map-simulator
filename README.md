@@ -104,7 +104,7 @@ cd src/Dsp-map-simulator/
 Then in a new window:
 
 ```
-cd uav_simulator_ws
+cd ~/uav_simulator_ws/
 source devel/setup.bash 
 roslaunch dynamic_occpuancy_map mapping.launch 
 ```
