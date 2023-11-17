@@ -95,8 +95,8 @@ Please ensure that you have granted executable permissions to these two sh files
 To test DSP-MAP, execute the following code in a new window:
 
 ```
-    source devel/setup.bash 
-    roslaunch dynamic_occpuancy_map mapping.launch 
+source devel/setup.bash 
+roslaunch dynamic_occpuancy_map mapping.launch 
 ```
 
 Then you can obtain the following results:
