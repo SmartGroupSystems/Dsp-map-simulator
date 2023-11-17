@@ -92,7 +92,15 @@ Please ensure that you have granted executable permissions to these two sh files
 
 # Testing DSP-MAP
 
-To test DSP-MAP, execute the following code in a new window:
+To test DSP-MAP, execute the following code in a window:
+
+```
+cd uav_simulator_ws
+source devel/setup.bash
+roslaunch so3_quadrotor_simulator simulator_example.launch
+```
+
+Then in a new window:
 
 ```
 source devel/setup.bash 
