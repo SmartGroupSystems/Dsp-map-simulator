@@ -112,6 +112,8 @@ roslaunch dynamic_occpuancy_map mapping.launch
 Then you can obtain the following results:
 ![dsp_map](fig/dsp_map.gif)
 
+Note the distinction between ```local_click_map``` and ```dsp_map``` point clouds.
+
 It is important to note that the simulation does not take into account the issue of light projection, so the obstacles will not obstruct each other.
 
 # Control simulation
