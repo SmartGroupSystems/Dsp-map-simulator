@@ -28,11 +28,11 @@ catkin_make
 
 2.Test
 
-    ```
-    cd uav_simulator_ws
-    source devel/setup.bash
-    roslaunch roslaunch so3_quadrotor_simulator simulator_example.launch
-    ```
+```
+cd uav_simulator_ws
+source devel/setup.bash
+roslaunch roslaunch so3_quadrotor_simulator simulator_example.launch
+```
 
 Then you can see a uav like this:
 ![simulator](fig/simulator.png)
@@ -43,30 +43,30 @@ We have set up two different types of maps for testing.
 
 __Click-map__: You can use the two built-in components of rviz to click on the map to generate static and dynamic obstacles, respectively, like this:
 
-    ```
-    ./click_map.sh
-    ```
+```
+./click_map.sh
+```
 
 ![click_map](fig/click_map.gif)
 
 You can use the following command to save the published map as a rosbag file.
 
-    ```
-    ./save_dyn_map.sh
-    ```
+```
+./save_dyn_map.sh
+```
 
 __Random-map__: If you use this script, you will get an environment with randomly generated dynamic obstacles.
 
-    ```
-    ./random_map.sh
-    ```
+```
+./random_map.sh
+```
 
 
 ![random_map](fig/random_map.gif)
 
 If you want to adjust the number and generation range of obstacles, please modify the corresponding launch file in the script file.
 
-    ```
+```
     <launch>
     <node pkg ="map_generator" name ="dyn_map" type ="dyn_map" output = "screen">
         <param name="map/x_size"   value="30.0"/>
@@ -80,7 +80,7 @@ If you want to adjust the number and generation range of obstacles, please modif
     </node>
  
 </launch>
-    ```
+```
 
 Please ensure that you have granted executable permissions to these two sh files before executing them.
 
@@ -88,10 +88,10 @@ Please ensure that you have granted executable permissions to these two sh files
 
 To test DSP-MAP, execute the following code in a new window:
 
-    ```
+```
     source devel/setup.bash 
     roslaunch dynamic_occpuancy_map mapping.launch 
-    ```
+```
 
 Then you can obtain the following results:
 ![dsp_map](fig/dsp_map.gif)
@@ -101,18 +101,18 @@ It is important to note that the simulation does not take into account the issue
 # Control simulation
 This project also provides a control interface:
 
-    ```
-    cd uav_simulator_ws
-    source devel/setup.bash
-    roslaunch so3_quadrotor_simulator simulator_example.launch
-    ```
+```
+cd uav_simulator_ws
+source devel/setup.bash
+roslaunch so3_quadrotor_simulator simulator_example.launch
+```
 
 Then in a new window:
  
-    ```
-    source devel/setup.bash
-    rosrun so3_control control_keyboard 
-    ```
+```
+source devel/setup.bash
+rosrun so3_control control_keyboard 
+```
 
 Then you can use your keyboard to control the uav. Use 'WASD' to control the UAV's up, down, and yaw angle, and use 'IJKL' to control the UAV's forward, backward, left, and right movements.
 ![control](fig/control.gif)
