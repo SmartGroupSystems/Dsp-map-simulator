@@ -8,7 +8,7 @@ This repository mainly contains the following modules:
 
 (2) To test [DSP-MAP](https://github.com/g-ch/DSP-map), please refer to the [Testing DSP-MAP](#testing-dsp-map). 
 
-(3) To conduct drone planning simulations, please refer to the [Planning in simulation](#control-simulation).
+(3) To conduct drone planning simulations, please refer to the [Control in simulation](#control-simulation).
 
 
 # Compile
