@@ -1,0 +1,13 @@
+<launch>
+    <node pkg ="map_generator" name ="dyn_map" type ="dyn_map" output = "screen">
+        <param name="map/x_size"   value="30.0"/>
+        <param name="map/y_size"   value="30.0" />
+        <param name="map/z_size"   value="8.0" />
+
+        <param name="map/obs_num"  value="60"/>
+        <param name="map/obs_traj" value="8.0" />
+        <param name="map/w_l"      value="1.0" />
+        <param name="map/h_l"      value="7.0" />
+    </node>
+ 
+</launch>

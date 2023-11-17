@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/uav/dynamic_planner/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/uav/dynamic_planner/src/planner/bspline_race/include/**",
+        "/home/uav/dynamic_planner/src/planner/deaf_pkg/include/**",
+        "/home/uav/桌面/map_ws/src/DSP-map/include/**",
+        "/home/uav/dynamic_planner/src/planner/grid_path_searcher/include/**",
+        "/home/uav/dynamic_planner/src/planner/uav_simulator/dynamic_map_generator/include/**",
+        "/home/uav/dynamic_planner/src/planner/mapping/include/**",
+        "/home/uav/dynamic_planner/src/planner/uav_simulator/mockamap/include/**",
+        "/home/uav/dynamic_planner/src/Utils/multi_map_server/include/**",
+        "/home/uav/dynamic_planner/src/Utils/pose_utils/include/**",
+        "/home/uav/dynamic_planner/src/Utils/quadrotor_msgs/include/**",
+        "/home/uav/dynamic_planner/src/planner/uav_simulator/so3_control/include/**",
+        "/home/uav/dynamic_planner/src/planner/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/uav/dynamic_planner/src/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
