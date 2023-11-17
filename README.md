@@ -44,6 +44,9 @@ We have set up two different types of maps for testing.
 __Click-map__: You can use the two built-in components of rviz to click on the map to generate static and dynamic obstacles, respectively, like this:
 
 ```
+cd uav_simulator_ws
+source devel/setup.bash
+cd src/Dsp-map-simulator/
 ./click_map.sh
 ```
 
@@ -58,6 +61,9 @@ You can use the following command to save the published map as a rosbag file.
 __Random-map__: If you use this script, you will get an environment with randomly generated dynamic obstacles.
 
 ```
+cd uav_simulator_ws
+source devel/setup.bash
+cd src/Dsp-map-simulator/
 ./random_map.sh
 ```
 
