@@ -97,7 +97,8 @@ To test DSP-MAP, execute the following code in a window:
 ```
 cd uav_simulator_ws
 source devel/setup.bash
-roslaunch so3_quadrotor_simulator simulator_example.launch
+cd src/Dsp-map-simulator/
+./click_map.sh
 ```
 
 Then in a new window:
