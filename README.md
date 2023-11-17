@@ -31,7 +31,7 @@ catkin_make
 ```
 cd uav_simulator_ws
 source devel/setup.bash
-roslaunch roslaunch so3_quadrotor_simulator simulator_example.launch
+roslaunch so3_quadrotor_simulator simulator_example.launch
 ```
 
 Then you can see a uav like this:
