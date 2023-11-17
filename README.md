@@ -19,11 +19,11 @@ This document includes DSP-MAP, therefore it requires some components of dsp-map
 1.Download and compile the repo
 
 ```
-    mkdir -p uav_simulator_ws/src
-    cd uav_simulator_ws/src
-    git clone https://github.com/SmartGroupSystems/Dsp-map-simulator
-    cd ..
-    catkin_make
+mkdir -p uav_simulator_ws/src
+cd uav_simulator_ws/src
+git clone https://github.com/SmartGroupSystems/Dsp-map-simulator
+cd ..
+catkin_make
 ```
 
 2.Test
